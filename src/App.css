@@ -95,7 +95,8 @@
 }
 
 .AddDeviceButton:hover,
-.ArchiveDeviceButton:hover {
+.ArchiveDeviceButton:hover,
+.LoginButton:hover {
   box-shadow: 0 0 10px rgba(0, 75, 135, 0.5);
   transform: scale(1.05);
 }
@@ -109,4 +110,22 @@
 
 .SearchBox-button:hover .SearchBox-icon {
   opacity: 1;
+}
+
+.LoginButton {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  z-index: 2;
+  width: 180px;
+  height: 60px;
+  padding: 0.5em 1em;
+  background-color: #004B97;
+  color: white;
+  font-size: 0.7em;
+  border: none;
+  cursor: pointer;
+  font-family: 'Averia Serif Libre', cursive;
+  border-radius: 4px;
+  transition: box-shadow 0.3s, transform 0.3s;
 }

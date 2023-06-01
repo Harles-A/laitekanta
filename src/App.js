@@ -4,6 +4,7 @@ import './App.css';
 import SearchBox from './components/SearchDevice/SearchBox';
 import AddDeviceButton from './components/AddDevice/AddDevice';
 import ArchiveDeviceButton from './components/ArchiveDevice/ArchiveDevice';
+import LoginButton from './Login/Login';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <SearchBox className="SearchBox" />
         <AddDeviceButton className="AddDeviceButton"/>
         <ArchiveDeviceButton className="ArchiveDeviceButton"/>
+        <LoginButton className="LoginButton"/>
       </header>
     </div>
   );
